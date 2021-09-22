@@ -78,7 +78,7 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
     EgeTheme = {
-        SchemeColor = Color3.fromRGB(255,162,0),
+        SchemeColor = Color3.fromRGB(255,145,0),
         Background = Color3.fromRGB(0, 0, 0),
         Header = Color3.fromRGB(0, 0, 0),
         TextColor = Color3.fromRGB(255,255,255),
