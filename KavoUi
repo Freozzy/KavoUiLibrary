@@ -76,7 +76,7 @@ local themeStyles = {
         Header = Color3.fromRGB(5, 5, 5),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
-  },
+    },
     OrangeTheme = {
         SchemeColor = Color3.fromRGB(255,145,0),
         Background = Color3.fromRGB(10, 10, 10),
@@ -173,7 +173,7 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.BloodTheme
     elseif themeList == "OrangeTheme" then
         themeList = themeStyles.OrangeTheme
-    elseif themeList == themeStyles.CyanTheme
+    elseif themeList == "CyanTheme" then
         themeList = themeStyles.CyanTheme
     elseif themeList == "GrapeTheme" then
         themeList = themeStyles.GrapeTheme
